@@ -1,0 +1,9 @@
+{
+  "name": "meianuca-blog",
+  "version": "0.0.1",
+  "description": "Grupo Meia Nuca",
+  "main": "index.html",
+  "repository": "https://github.com/denisazevedo/meianuca-blog.git",
+  "author": "Denis C de Azevedo <denis.azevedo@gmail.com>",
+  "license": "MIT"
+}
