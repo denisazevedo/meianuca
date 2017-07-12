@@ -728,8 +728,55 @@ div .logo_meia_nuca {
   margin-top: 10px;
   margin-left: 0px;
   height:30px;
+  }
+
+}
+ }
+   @media (min-device-width : 1920px){
+    .caption {
+  top: 35%;
+    }
+      div .logo_meia_nuca {
+    margin-top: 0;
+    width:250px;
+    float: left;
+  }
+    .selo_meia_nuca{
+  width: 350px;
+  }
+    .insta{
+  margin-top: 40px;
+  margin-left: 0px;
+  height:50px;
+  }
+
 }
 
+
+
+  @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+    .caption {
+  top: 10%;
+    }
+      div .logo_meia_nuca {
+    margin-top: 15px;
+    width:150px;
   }
+    .selo_meia_nuca{
+    width: 350px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+    .insta{
+  margin-top: 10px;
+  margin-left: 0px;
+  height:40px;
+  }
+}
+
+
    
 /*# sourceMappingURL=bootstrap-theme.css.map */
