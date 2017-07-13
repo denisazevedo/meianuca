@@ -623,6 +623,13 @@ body, html {
   text-align: center;
   color: #000;
 }
+.social{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.social .col-md-6{
+  padding-bottom: 30px;
+}
 
 .caption span.border {
   background-color: #111;
@@ -640,35 +647,77 @@ h3 {
 }
 
 div .logo_meia_nuca {
-    margin-top: 100px;
+    margin-top: 80px;
     width:150px;
 }
 .selo_meia_nuca{
-  width: 350px;
+  width: 310px;
 }
 .insta{
-  margin-top: 80px;
+
   margin-left: 0;
   height:30px;
+  float: right;
 }
+ .t{
+  margin-top: 50px;
+  margin-left: 0px;
+  height:30px;
+  }
+
+  .twitter{
+
+  margin-left: 0px;
+  height:32px;
+  float: left;
+  }
 @media (max-width: 991px) {
    .caption {
   top: 10%;
     }
       .insta{
+
+  margin-left: 0px;
+  height:30px;
+  float: none;
+  }
+   .t{
   margin-top: 50px;
   margin-left: 0px;
   height:30px;
   }
+
+  .twitter{
+
+  margin-left: 0px;
+  height:30px;
+  float: none;
+  }
+  .social{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 }
 @media (max-width: 767px) {
    .caption {
   top: 10%;
     }
       .insta{
-  margin-top: 50px;
+
   margin-left: 0px;
   height:30px;
+  float: none;
+  }
+  .t{
+  
+  margin-left: 0px;
+  height:30px;
+  }
+  .twitter{
+
+  margin-left: 0px;
+  height:34px;
+  float: none;
   }
 }
 
@@ -684,10 +733,22 @@ div .logo_meia_nuca {
   width: 300px;
   }
   .insta{
+
+  margin-left: 0px;
+  height:30px;
+  float: none;
+}
+.t{
   margin-top: 30px;
   margin-left: 0px;
   height:30px;
 }
+.twitter{
+
+  margin-left: 0px;
+  height:34px;
+  float: none;
+  }
 }
 @media (max-height: 700px) {
   .caption {
@@ -725,9 +786,21 @@ div .logo_meia_nuca {
   width: 250px;
   }
     .insta{
-  margin-top: 10px;
+
   margin-left: 0px;
   height:30px;
+  float: none;
+  }
+  .t{
+
+  margin-left: 0px;
+  height:30px;
+  }
+  .twitter{
+
+  margin-left: 0px;
+  height:32px;
+  float: none;
   }
 
 }
@@ -745,9 +818,22 @@ div .logo_meia_nuca {
   width: 350px;
   }
     .insta{
-  margin-top: 40px;
+
   margin-left: 0px;
   height:50px;
+  float: right;
+  }
+  .t{
+
+  margin-left: 0px;
+  height:50px;
+  }
+
+  .twitter{
+
+  margin-left: 0px;
+  height:60px;
+  float: left;
   }
 
 }
@@ -771,9 +857,22 @@ and (orientation : portrait) {
     margin-bottom: 60px;
   }
     .insta{
+
+  margin-left: 0px;
+  height:40px;
+  float: right;
+  }
+     .t{
   margin-top: 10px;
   margin-left: 0px;
   height:40px;
+  }
+  .twitter{
+
+    margin-left: 0px;
+    height:50px;
+    float: left;
+
   }
 }
 
