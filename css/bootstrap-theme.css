@@ -601,6 +601,10 @@ body, html {
   background-color: black;
 }
 
+a:hover{
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
   opacity: 1;
